@@ -1,0 +1,165 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    margin: auto;
+    opacity: 0.9;
+}
+
+a{
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+h2,
+h3,
+h4{
+ margin: 22 0 10 0;
+    text-align: center;
+}
+
+/*Header*/
+
+header{
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    align-content: flex-start;
+    
+}
+
+.header-container{
+    display: inline-flex;
+    height: 69;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    justify-content: space-between;
+}
+
+header img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav{
+    display: block;
+    padding-right: 10px;
+}
+nav span{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/*Main*/
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    text-align: center;
+}
+
+.store{
+    width:1000px;
+    background-color: black;
+    position: relative;
+    margin: 0px auto;
+    
+}
+.store-container{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    
+}
+.products{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.item img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1200px;
+    height: 500px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    position: relative;
+    top: 80;
+    
+}
+.location-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 35
+}
+.shop{
+    display: flex;
+    justify-content: center;
+}
+.address{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    opacity: 1;
+    margin: 15px 20px;
+}
+
+/*Contact*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    height: 200px;
+    position: relative;
+    top: 80;
+}
+
+/*Footer*/
+
+footer {
+    
+  text-align: left;
+  padding-left: 20px;
+    padding-top: 80px;
+}
